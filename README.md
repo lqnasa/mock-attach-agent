@@ -14,18 +14,18 @@
 
 3. Mock 异常
    在测试中，Mock 异常是一种常见的需求。ByteBuddy 可以通过拦截方法调用并抛出指定的异常来实现这一功能。
-[MockExceptionAdvice.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Fexception%2FMockExceptionAdvice.java)
-[MockExceptionPlugin.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Fexception%2FMockExceptionPlugin.java)
+[MockExceptionAdvice.java]
+[MockExceptionPlugin.java]
 
 4. 修改返回值
 ByteBuddy 可以轻松地修改方法的返回值。
-[FastjsonNameHashCode64Intercept.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Ffastjson%2FFastjsonNameHashCode64Intercept.java)
-[FastjsonNameHashCode64Plugin.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Ffastjson%2FFastjsonNameHashCode64Plugin.java)
+[FastjsonNameHashCode64Intercept.java]
+[FastjsonNameHashCode64Plugin.java]
 
 5. 性能监控
 ByteBuddy 可以用于监控方法的执行耗时。
-[SpringTimeConsumeAdvice.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Fspring%2FSpringTimeConsumeAdvice.java)
-[SpringTimeConsumePlugin.java](src%2Fmain%2Fjava%2Fcom%2Fcoder%2Fagent%2Fplugin%2Fspring%2FSpringTimeConsumePlugin.java)
+[SpringTimeConsumeAdvice.java]
+[SpringTimeConsumePlugin.java]
 
 6. 日志记录
 ByteBuddy 可以用于在方法调用前后插入日志记录逻辑。
